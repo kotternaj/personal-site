@@ -20,5 +20,9 @@
   "homepage": "https://github.com/kotternaj/personal-site#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0"
   }
 }
