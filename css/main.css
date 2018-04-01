@@ -87,8 +87,15 @@ hr {
     padding: 0 15px 0 15px;
 }
 
-/* SKILLS */
+/* Project master div */
+#projects {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+/* SKILLS */
 #skills {
     display: flex;
     flex-direction: column;
@@ -152,6 +159,7 @@ hr {
     transition: all ease .2s;
 }
 
+/* Media Queries */
 @media (min-width: 575px) {
     #skills i {
         font-size: 55px;
@@ -179,36 +187,13 @@ hr {
         font-size: 23px;
     }
 
+    #skills i {
+        font-size: 85px;
+    }
     #projects div.project-content {
         flex-direction: row;
         margin: 25px 15px;
         justify-content: space-around;
-    }
-
-    .project-description i[data] {
-        font-size: 25px;
-        color: black;
-    }
-
-    .project-description {
-        width: 45%;
-    }
-
-    .video-walkthrough {
-        width: 45%;
-    }
-
-    #package-tracker div.project-content {
-        flex-direction: row-reverse;
-    }
-
-    .tech-stack-used i {
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-
-    #skills i {
-        font-size: 85px;
     }
 }
 
@@ -244,19 +229,6 @@ hr {
         justify-content: space-around;
     }
 
-    .project-description i[data] {
-        font-size: 43px;
-        color: black;
-    }
-
-    .tech-stack-used i {
-        font-size: 38px;
-    }
-
-    #package-tracker div.project-content {
-        flex-direction: row-reverse;
-    }
-
     #skills i {
         font-size: 100px;
     }
@@ -269,10 +241,6 @@ hr {
         max-width: 300px;
         max-height: 260px;
         top: -158px;
-    }
-
-    #skills i:hover {
-        transform: translateY(-13px);
     }
 
     #contact {
