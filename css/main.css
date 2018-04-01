@@ -152,7 +152,133 @@ hr {
     transition: all ease .2s;
 }
 
+@media (min-width: 575px) {
+    #skills i {
+        font-size: 55px;
+    }
+}
 
+@media (min-width: 700px) {
+    .my-name {
+        font-size: 75px;
+    }
+
+    .i-am {
+        font-size: 45px;
+    }
+
+    .about-text {
+        font-size: 20px;
+    }
+
+    div[id] h3 {
+        font-size: 30px;
+    }
+
+    div[id] h4 {
+        font-size: 23px;
+    }
+
+    #projects div.project-content {
+        flex-direction: row;
+        margin: 25px 15px;
+        justify-content: space-around;
+    }
+
+    .project-description i[data] {
+        font-size: 25px;
+        color: black;
+    }
+
+    .project-description {
+        width: 45%;
+    }
+
+    .video-walkthrough {
+        width: 45%;
+    }
+
+    #package-tracker div.project-content {
+        flex-direction: row-reverse;
+    }
+
+    .tech-stack-used i {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    #skills i {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #big-name {
+        padding: 200px 0 200px 0;
+    }
+
+    .my-name {
+        font-size: 90px;
+    }
+
+    div[id] h3 {
+        font-size: 40px;
+    }
+
+    div[id] h4 {
+        font-size: 33px;
+    }
+
+    div[id] h6 {
+        font-size: 17px;
+    }
+
+    div[id] p {
+        font-size: 20px;
+    }
+
+    #projects div.project-content {
+        flex-direction: row;
+        margin: 15px 35px;
+        padding: 70px 0 70px 0;
+        justify-content: space-around;
+    }
+
+    .project-description i[data] {
+        font-size: 43px;
+        color: black;
+    }
+
+    .tech-stack-used i {
+        font-size: 38px;
+    }
+
+    #package-tracker div.project-content {
+        flex-direction: row-reverse;
+    }
+
+    #skills i {
+        font-size: 100px;
+    }
+
+    #contact i {
+        font-size: 68px;
+    }
+
+    #portrait {
+        max-width: 300px;
+        max-height: 260px;
+        top: -158px;
+    }
+
+    #skills i:hover {
+        transform: translateY(-13px);
+    }
+
+    #contact {
+        padding: 60px 0 60px 0;
+    }
+}
 .hidden {
     visibility: hidden;
 }
