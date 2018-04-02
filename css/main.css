@@ -40,6 +40,10 @@ hr {
     max-width: 75px;
 }
 
+.navbar-default {
+    background-color: rgba(249, 249, 250, 0.849);
+} 
+
 .my-name {
     font-size: 37px;
     color: black;
@@ -93,6 +97,34 @@ hr {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+/* Project divs */
+#projects div.project-content {
+    padding: 5px 5px 18px 5px;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-description {
+    height: 45%;
+}
+.vid-sample {
+    height: 45%;
+}
+
+.vid-sample img {
+    max-width: 100%;
+    box-shadow: 0 1px 2px rgba(124, 124, 124, 0.781);
+    border-radius: 5px;
+    transition: all ease .4s;
+}
+
+.vid-sample img:hover {
+    box-shadow: 0 5px 5px rgba(124, 124, 124, 0.781);
+    transform: translateY(-5px);
 }
 
 /* SKILLS */
@@ -195,6 +227,21 @@ hr {
         margin: 25px 15px;
         justify-content: space-around;
     }
+    #pygame div.project-content {
+        flex-direction: row-reverse;
+    }
+
+    .project-description i[data] {
+        font-size: 25px;
+        color: black;
+    }
+    
+    .project-description {
+        width: 45%;
+    }
+    .vid-sample {
+        width: 45%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -229,9 +276,13 @@ hr {
         justify-content: space-around;
     }
 
-    #skills i {
-        font-size: 100px;
+    #pygame div.project-content {
+        flex-direction: row-reverse;        
     }
+
+    /* #skills i {
+        font-size: 100px;
+    } */
 
     #contact i {
         font-size: 68px;
