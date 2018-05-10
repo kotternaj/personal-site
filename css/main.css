@@ -25,7 +25,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 110px 0 150px 0;
+    padding: 50px 0 200px 0;
     background-color: rgb(255, 255, 255);
     text-align: center; 
     color: aliceblue;   
@@ -136,6 +136,42 @@ hr {
     background-color: rgba(54, 88, 150, 0.801);
     padding: 20px 10px;
     color: aliceblue;
+}
+
+#skills i {
+    font-size: 50px;
+    padding: 10px;
+    transition: all ease .3s;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#skills i:hover {
+    transform: translateY(-8px);
+}
+
+.dull {
+    color: rgba(240, 248, 255, 0.219);
+}
+
+.skill-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    position: relative;
+}
+
+.skill-group p {
+    transition: all ease 1s;
+    bottom: 10px;
+    position: absolute;
+    font-size: 12px;
 }
 
 #container {
