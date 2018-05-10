@@ -227,6 +227,15 @@ hr {
     transition: all ease .2s;
 }
 
+#disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    background-color: rgba(24, 59, 90, 0.568);
+    color: aliceblue;
+}
+
 /* Media Queries */
 @media (min-width: 575px) {
     #skills i {
